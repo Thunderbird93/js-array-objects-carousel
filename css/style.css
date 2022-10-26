@@ -9,3 +9,17 @@ body {
     background-color: blanchedalmond;
     color: white;
 }
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    background-color: azure;
+}
