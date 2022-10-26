@@ -34,23 +34,3 @@ body {
     background-color: aqua;
 }
 
-/*
-Inserisco una suddivisione per le immagini che andranno nel thumb
-*/
-
-.slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: none;
-}
-
-/*
-quando aggiungerò classList.add('active') nel thumb
-*/
-.thumb img.active{
-    opacity: 0.9;
-    border: 1.5px solid white;
-}
-
-
