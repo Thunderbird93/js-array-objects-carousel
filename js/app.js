@@ -40,4 +40,17 @@ const array = [
 ];
 console.log(array)
 
+const container = document.querySelector('.container');
+
+for (let object of array){
+    let picture = `
+    <img src="${object.img}" class="card-img-top" alt="...">
+    `
+    container.innerHTML += picture;
+}
+
+
+const slider = document.querySelector('.slider');
+const thumb = document.querySelector('.thumb');
+
 
